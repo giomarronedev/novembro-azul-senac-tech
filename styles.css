@@ -176,10 +176,6 @@ section div {
 }
 
 @media only screen and (max-width: 600px) {
-  header svg {
-    width: 1.5rem;
-  }
-
   nav {
     display: flex;
     align-items: center;

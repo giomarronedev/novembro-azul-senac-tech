@@ -35,35 +35,39 @@ header {
 }
 
 header ul {
-    list-style: none;
-    display: flex;
-    gap: 3rem;
-    align-items: center;
+  list-style: none;
+  display: flex;
+  gap: 3rem;
+  align-items: center;
 }
 
 header button {
-    padding: 1rem 2rem;
-    border: 1px solid var(--brand-pink);
-    border-radius: 4rem;
-    color: var(--brand-pink);
-    font-weight: 500;
-    font-size: 1rem;
-    background-color: transparent;
-    transition: .2s;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--brand-pink);
+  border-radius: 4rem;
+  color: var(--brand-pink);
+  font-weight: 500;
+  font-size: 1rem;
+  background-color: transparent;
+  transition: 0.2s;
 }
 
 header button:hover {
-    transition: .2s;
-    border: 1px solid #fa8cb1;
-    color: white;
-    background-color: #fa8cb1;
+  transition: 0.2s;
+  border: 1px solid #fa8cb1;
+  color: white;
+  background-color: #fa8cb1;
 }
 
 header a {
-    text-decoration: none;
-    color: var(--brand-pink);
-    font-weight: 500;
-    transition: 0.2s;
+  text-decoration: none;
+  color: var(--brand-pink);
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+header a:hover {
+  color: #7acaf0;
 }
 
 nav {
@@ -202,7 +206,7 @@ section div {
 
   header {
     border-bottom: 2px solid var(--brand-pink);
-    height: 6rem;
+    height: 8rem;
     display: flex;
     align-items: center;
     position: sticky;
@@ -210,10 +214,34 @@ section div {
     background-color: #f9feff;
   }
 
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 0rem;
+    gap: 0.5rem;
+    align-items: center;
+  }
+
+  header button {
+    padding: 0px 3px;
+    border: 1px solid var(--brand-pink);
+    border-radius: 4rem;
+    color: var(--brand-pink);
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: transparent;
+    transition: 0.2s;
+  }
+
   header h1 {
     color: var(--brand-pink);
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: center;
+  }
+
+  .header-wrapper {
+    display: flex;
+    gap: 1rem;
   }
 
   h2,
